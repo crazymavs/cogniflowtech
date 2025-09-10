@@ -1,6 +1,6 @@
 <?php 
 
-$base_url = 'http://localhost/cogniflow/';
+$base_url = 'http://localhost/cogniflowweb/';
 
 include_once ("php/partials/global/_urlHandler.php");
 
@@ -86,7 +86,7 @@ include_once 'php/partials/global/_head.php';
   <script src="<?= $asset_base ?>assets/js/vendor/jquery.min.js"></script>
   <script src="<?= $asset_base ?>assets/js/plugins/jpreLoader.js"></script>
   <script src="<?= $asset_base ?>assets/js/plugins/jquery.waypoints.min.js"></script>
-  <script src="<?= $asset_base ?>assets/js/vendor/bootstrap.min.js"></script>
+  <script src="<?= $asset_base ?>assets/js/vendor/bootstrap.bundle.min.js"></script>
   <script src="<?= $asset_base ?>assets/js/plugins/easing.js"></script>
   <script src="<?= $asset_base ?>assets/js/plugins/jquery.mCustomScrollbar.concat.min.js"></script>
   <script src="<?= $asset_base ?>assets/js/plugins/fancySelect.js"></script>
@@ -103,8 +103,11 @@ include_once 'php/partials/global/_head.php';
   <script src="<?= $asset_base ?>assets/js/plugins/custom-isotope.js"></script>
   <script src="<?= $asset_base ?>assets/js/plugins/owl.carousel.js"></script>
   <script src="<?= $asset_base ?>assets/js/plugins/custom-owl.js"></script>
-  <script src='https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js'></script>
-  <script src="js/plugins/contact.js"></script>
+  <?php if ($url == 'contact') {
+    echo '<script src="<?= $asset_base ?>assets/js/plugins/contact.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=&sensor=false&extension=.js"></script>';
+  }
+  ?>
 
 </body>
 

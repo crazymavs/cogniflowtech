@@ -223,11 +223,11 @@
             <div class="counter-up counter-up-style-1 text-center">
               <h1>WHO ARE WE?</h1>
               <h2>Partnering for Resilient, Data-Driven Operations Power and Process</h2>
-              <p class="" style="color:black; ">Cogniflow Technologies is a specialized technology consultancy delivering advanced solutions in power system analysis, industrial process automation, Industrial IoT (IIoT), and SaaS-based platforms. We support clients across the energy, CPG, and specialty chemicals sectors with expertise in Siemens automation systems, industrial sensors and instruments, and data-driven systems integration. Our capabilities enable real-time monitoring, predictive analytics, and seamless connectivity —empowering businesses to enhance reliability, optimize operations, and scale efficiently through modern, intelligent infrastructure.</p>
+              <p class="">Cogniflow Technologies is a specialized technology consultancy delivering advanced solutions in power system analysis, industrial process automation, Industrial IoT (IIoT), and SaaS-based platforms. We support clients across the energy, CPG, and specialty chemicals sectors with expertise in Siemens automation systems, industrial sensors and instruments, and data-driven systems integration. Our capabilities enable real-time monitoring, predictive analytics, and seamless connectivity —empowering businesses to enhance reliability, optimize operations, and scale efficiently through modern, intelligent infrastructure.</p>
 
             </div><!-- End counter up -->
             <div class="row" style="margin-top: 32px;">
-                <div class="col-md-6" style="color:black; ">
+                <div class="col-md-6">
 <!-- 
                 <ul  >
                     <li><strong>Power system consultancy:</strong> Load flow studies, fault analysis, protection coordination, system design & optimization</li>
@@ -252,7 +252,7 @@
               </div>
               
             </div>
-            <p class="text-justify" style="margin-top:24px;margin-left:2em;color:black;font-size:18px" >We combine domain expertise with cutting-edge technologies to deliver scalable, secure, and future-ready solutions tailored to industrial environments. Our team bridges the gap between traditional engineering practices and digital transformation goals, enabling smarter, safer, and more connected operations.</p>
+            <p class="text-justify text-dark pt-3" >We combine domain expertise with cutting-edge technologies to deliver scalable, secure, and future-ready solutions tailored to industrial environments. Our team bridges the gap between traditional engineering practices and digital transformation goals, enabling smarter, safer, and more connected operations.</p>
 
           </div> <!-- End cold -->
         </div><!-- End row -->
@@ -364,9 +364,9 @@
                 ensure safety, and scale with your growth. </p>
 
             </div><!-- End counter up -->
-            <div class="row" style="margin-top: 24px;display: flex; align-items: center;">
+            <div class="row pt-3">
 
-                <ul class="col-md-6">
+                <ul class="col-md-6 mt-3 pt-3">
                     <li>
                         <h4>Proven Expertise in Industrial Process Automation</h4>
                     </li>
