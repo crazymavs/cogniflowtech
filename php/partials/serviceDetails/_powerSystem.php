@@ -13,11 +13,11 @@
                         </div>
                     </div> <!-- End col slidebar -->
                     <div class="col-md-9 services-detail-content">
-                        <img src="<?= $asset_base ?>assets/images/cogniflow/powerSystem/1.jpg" class="img-responsive img-header-detail"
-                            alt="Power System Consultancy">
-
+                        
                         <div class="h-block">
                             <h3>Power System Consultancy</h3>
+                            <img src="<?= $asset_base ?>assets/images/cogniflow/powerSystem/1.jpg" class="img-responsive img-header-detail"
+                                alt="Power System Consultancy">
                             <div class="row">
                                 <div class="col-sm-6 col-md-8 left-hblock">
                                     <p>Our Power System Consultancy services are designed to optimize electrical network design, performance, safety, and compliance. We work closely with industrial, utility, and infrastructure clients to analyze, model, and enhance power systems using proven engineering tools and standards. We provide in-depth technical evaluations that support informed decision-making, equipment sizing, regulatory compliance, and safe operations.

@@ -13,11 +13,11 @@
                         </div>
                     </div> <!-- End col slidebar -->
                     <div class="col-md-9 services-detail-content">
-                        <img src="<?= $asset_base ?>assets/images/cogniflow/aveva/2.jpg" class="img-responsive img-header-detail"
-                            alt="Siemens Automation Solutions">
-
+                        
                         <div class="h-block">
                             <h3>Siemens Automation Solutions</h3>
+                            <img src="<?= $asset_base ?>assets/images/cogniflow/aveva/2.jpg" class="img-responsive img-header-detail"
+                                alt="Siemens Automation Solutions">
                             <div class="row">
                                 <div class="col-sm-6 col-md-8 left-hblock">
                                     <p>We specialize in the implementation and integration of AVEVA's industry-leading

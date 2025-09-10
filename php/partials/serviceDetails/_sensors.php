@@ -13,11 +13,11 @@
                         </div>
                     </div> <!-- End col slidebar -->
                     <div class="col-md-9 services-detail-content">
-                        <img src="<?= $asset_base ?>assets/images/cogniflow/sensors/3.jpg" class="img-responsive img-header-detail"
-                            alt="Sensors & Industrial Instruments">
-
-                       <div class="h-block">
+                        
+                        <div class="h-block">
                             <h3>Sensors & Industrial Instruments</h3>
+                            <img src="<?= $asset_base ?>assets/images/cogniflow/sensors/3.jpg" class="img-responsive img-header-detail"
+                                alt="Sensors & Industrial Instruments">
                             <div class="row">
                                 <div class="col-sm-6 col-md-8 left-hblock">
                                     <p>We deliver <strong>industrial-grade sensors and instruments</strong> that enable accurate, real-time monitoring and control in <strong>CPG and Specialty Chemicals</strong> operations. Our solutions ensure <strong>product quality, safety, and efficiency</strong> under demanding process conditions.

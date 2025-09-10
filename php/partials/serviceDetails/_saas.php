@@ -13,11 +13,11 @@
                         </div>
                     </div> <!-- End col slidebar -->
                     <div class="col-md-9 services-detail-content">
-                        <img src="<?= $asset_base ?>assets/images/cogniflow/saas/3.jpg" class="img-responsive img-header-detail"
-                            alt="Software as a Service (SaaS)">
-
-                       <div class="h-block">
+                        
+                        <div class="h-block">
                             <h3>Software as a Service (SaaS)</h3>
+                            <img src="<?= $asset_base ?>assets/images/cogniflow/saas/3.jpg" class="img-responsive img-header-detail"
+                                alt="Software as a Service (SaaS)">
                             <div class="row">
                                 <div class="col-sm-6 col-md-8 left-hblock">
                                     <p>We extend our expertise in <strong>industrial process automation and power system consultancy</strong> through a <strong>scalable Software-as-a-Service (SaaS) model.</strong> Our cloud-based solutions simplify complex industrial operations by providing <strong>real-time monitoring, analytics, and reporting</strong> without the need for large IT infrastructure.

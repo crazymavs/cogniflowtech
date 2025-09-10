@@ -13,11 +13,11 @@
                         </div>
                     </div> <!-- End col slidebar -->
                     <div class="col-md-9 services-detail-content">
-                        <img src="<?= $asset_base ?>assets/images/cogniflow/iiot/2.jpg" class="img-responsive img-header-detail"
-                            alt="Industrial IoT Solutions">
-
-                      <div class="h-block">
+                        
+                        <div class="h-block">
                             <h3>Industrial IoT Solutions</h3>
+                            <img src="<?= $asset_base ?>assets/images/cogniflow/iiot/2.jpg" class="img-responsive img-header-detail"
+                                alt="Industrial IoT Solutions">
                             <div class="row">
                                 <div class="col-sm-6 col-md-8 left-hblock">
                                     <p>Our Industrial IoT solutions enable smarter, data-driven manufacturing by
