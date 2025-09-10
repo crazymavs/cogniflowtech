@@ -44,11 +44,11 @@ include_once 'php/partials/global/_head.php';
 
 
     <?php 
-            include_once 'php/partials/global/_header.php';
-        // if ($url == '' || $url == '/') {
-        // }else{
-        //     include_once 'php/partials/global/_header2.php';
-        // }
+        if ($url == '' || $url == '/') {
+          include_once 'php/partials/global/_header2.php';
+        }else{
+          include_once 'php/partials/global/_header.php';
+        }
         
 
         // Check if the requested URL exists in the routes
@@ -75,9 +75,6 @@ include_once 'php/partials/global/_head.php';
       <div class="sk-cube3 sk-cube"></div>
     </div>
   </div>
-  <div id="overlay"></div>
-  <!-- Overlay Mobile Menu Click -->
-  <a id="to-the-top" style="display: block;"><i class="fa fa-angle-up"></i></a> <!-- Back To Top -->
 
 
     <!-- JS here -->

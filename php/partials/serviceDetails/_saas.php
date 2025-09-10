@@ -14,7 +14,7 @@
                     </div> <!-- End col slidebar -->
                     <div class="col-md-9 services-detail-content">
                         <img src="<?= $asset_base ?>assets/images/cogniflow/saas/3.jpg" class="img-responsive img-header-detail"
-                            alt="Image">
+                            alt="Software as a Service (SaaS)">
 
                        <div class="h-block">
                             <h3>Software as a Service (SaaS)</h3>
@@ -22,7 +22,7 @@
                                 <div class="col-sm-6 col-md-8 left-hblock">
                                     <p>We extend our expertise in <strong>industrial process automation and power system consultancy</strong> through a <strong>scalable Software-as-a-Service (SaaS) model.</strong> Our cloud-based solutions simplify complex industrial operations by providing <strong>real-time monitoring, analytics, and reporting</strong> without the need for large IT infrastructure.
                                     </p>
-                                    <ul style="margin-top: 20px; padding: 0;  ">
+                                    <ul class="mt-3 p-0">
                                        <li><strong>Industrial Performance Tools</strong> – OEE, MES/MIS, production reporting, and traceability systems.</li>
                                         <li><strong>Power System Applications</strong> – Load monitoring, reliability assessment, and grid compliance support.</li>
                                         <li><strong>Data Collection &amp; Analytics</strong> – Secure, centralized access to process and energy data.</li>
@@ -34,12 +34,12 @@
                                 <div class="col-sm-6 col-md-4 right-hblock">
                                     <div class="brochures-download">
                                         <p>TO KNOW MORE</p>
-                                        <button type="button" class="btn btn-download"><i class="fa fa-file-pdf-o"
+                                        <a href="<?= $asset_base ?>assets/pdf/flyer.pdf" download="flyer.pdf" class="btn btn-download"><i class="fa fa-file-pdf-o"
                                                 aria-hidden="true"></i>
-                                            Download Flyer</button>
-                                        <button type="button" class="btn btn-download"><i class="fa fa-file-word-o"
+                                            Download Flyer</a>
+                                        <a href="<?= $asset_base ?>assets/pdf/flyer.pdf" download="flyer.pdf" class="btn btn-download"><i class="fa fa-file-pdf-o"
                                                 aria-hidden="true"></i>
-                                            Portfolio</button>
+                                            Portfolio</a>
                                     </div>
                                 </div>
                             </div><!-- End row -->

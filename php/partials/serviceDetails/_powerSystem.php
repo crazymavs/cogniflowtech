@@ -14,7 +14,7 @@
                     </div> <!-- End col slidebar -->
                     <div class="col-md-9 services-detail-content">
                         <img src="<?= $asset_base ?>assets/images/cogniflow/powerSystem/1.jpg" class="img-responsive img-header-detail"
-                            alt="Image">
+                            alt="Power System Consultancy">
 
                         <div class="h-block">
                             <h3>Power System Consultancy</h3>
@@ -51,12 +51,12 @@
                                 <div class="col-sm-6 col-md-4 right-hblock">
                                     <div class="brochures-download">
                                         <p>TO KNOW MORE</p>
-                                        <button type="button" class="btn btn-download"><i class="fa fa-file-pdf-o"
+                                        <a href="<?= $asset_base ?>assets/pdf/flyer.pdf" download="flyer.pdf" class="btn btn-download"><i class="fa fa-file-pdf-o"
                                                 aria-hidden="true"></i>
-                                            Download Flyer</button>
-                                        <button type="button" class="btn btn-download"><i class="fa fa-file-word-o"
+                                            Download Flyer</a>
+                                        <a href="<?= $asset_base ?>assets/pdf/flyer.pdf" download="flyer.pdf" class="btn btn-download"><i class="fa fa-file-pdf-o"
                                                 aria-hidden="true"></i>
-                                            Portfolio</button>
+                                            Portfolio</a>
                                     </div>
                                 </div>
                             </div><!-- End row -->

@@ -13,11 +13,12 @@
                         </div>
                     </div> <!-- End col slidebar -->
                     <div class="col-md-9 services-detail-content">
-                        <img src="<?= $asset_base ?>assets/images/cogniflow/automation/6.jpg" class="img-responsive img-header-detail"
-                            alt="Image">
+                        
 
                         <div class="h-block">
                             <h3>Industrial Process Automation</h3>
+                            <img src="<?= $asset_base ?>assets/images/cogniflow/automation/6.jpg" class="img-responsive img-header-detail"
+                            alt="Process Automation">
                             <div class="row">
                                 <div class="col-sm-6 col-md-8 left-hblock">
                                     <p>Our Industrial Automation solutions are built to optimize industrial operations
@@ -33,7 +34,7 @@
                                         but also data-driven, traceable, and
                                         scalable for future expansion.
                                     </p>
-                                    <ul style="margin-top: 20px; padding: 0;  ">
+                                    <ul class="mt-3 p-0">
                                         <li>PLC &amp; SCADA system integration for centralized monitoring and control
                                         </li>
                                         <li>HMI design and deployment for intuitive operator interfaces</li>
@@ -45,12 +46,12 @@
                                 <div class="col-sm-6 col-md-4 right-hblock">
                                     <div class="brochures-download">
                                         <p>TO KNOW MORE</p>
-                                        <button type="button" class="btn btn-download"><i class="fa fa-file-pdf-o"
+                                        <a href="<?= $asset_base ?>assets/pdf/flyer.pdf" download="flyer.pdf" class="btn btn-download"><i class="fa fa-file-pdf-o"
                                                 aria-hidden="true"></i>
-                                            Download Flyer</button>
-                                        <button type="button" class="btn btn-download"><i class="fa fa-file-word-o"
+                                            Download Flyer</a>
+                                        <a href="<?= $asset_base ?>assets/pdf/flyer.pdf" download="flyer.pdf" class="btn btn-download"><i class="fa fa-file-pdf-o"
                                                 aria-hidden="true"></i>
-                                            Portfolio</button>
+                                            Portfolio</a>
                                     </div>
                                 </div>
                             </div><!-- End row -->

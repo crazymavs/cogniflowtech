@@ -154,6 +154,8 @@ ul.social .linkedin:hover a {
 /*btn download*/
 .btn-download {
   font-size: 15px;
+  background: #ebebeb;
+
   color: #555;
   margin-top: 12px;
   margin-bottom: 0;
@@ -664,6 +666,25 @@ header {
 }
 .header-v1.stuck {
   background: rgba(255, 255, 255, 0.98);
+}
+
+.transparent-header {
+  background: none;
+}
+.transparent-header .navi-desktop-site .navi-level-1 li a {
+  color: #fff;
+}
+.transparent-header .has-icon .sub-text-middle,
+.transparent-header .icon-set-1 {
+  color: #fff !important;
+}
+
+.transparent-header.stuck {
+  background: rgb(255, 255, 255);
+}
+
+.transparent-header.stuck .navi-desktop-site .navi-level-1 li a {
+  color: #666;
 }
 .header-v2 {
   background: #2e363a;
@@ -4223,6 +4244,11 @@ ul.style-list-circle li:hover a {
 .section-title h2 {
   margin: 0;
 }
+.breadcrumb > li + li:before {
+  content: "/\00a0";
+  padding: 0 5px;
+  color: #ccc;
+}
 .breadcrumb-finance {
   background-color: transparent;
   margin-bottom: 0;
@@ -4308,7 +4334,7 @@ ul.style-list-circle li:hover a {
 }
 
 .services-detail-content ul {
-  /* list-style-position: inside; */
+  list-style-position: inside !important;
 }
 .brochures-download {
   border: 1px solid #e6e6e6;

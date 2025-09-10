@@ -14,7 +14,7 @@
                     </div> <!-- End col slidebar -->
                     <div class="col-md-9 services-detail-content">
                         <img src="<?= $asset_base ?>assets/images/cogniflow/aveva/2.jpg" class="img-responsive img-header-detail"
-                            alt="Image">
+                            alt="Siemens Automation Solutions">
 
                         <div class="h-block">
                             <h3>Siemens Automation Solutions</h3>
@@ -33,7 +33,7 @@
                                         also include complete license lifecycle
                                         management and dedicated technical support.
                                     </p>
-                                    <ul style="margin-top: 20px; padding: 0;  ">
+                                    <ul class="mt-3 p-0">
                                         <li>AVEVA System Platform implementation for unified real-time control and
                                             monitoring</li>
                                         <li>AVEVA Historian &amp; Insight setup for secure data logging and cloud
@@ -47,12 +47,12 @@
                                 <div class="col-sm-6 col-md-4 right-hblock">
                                     <div class="brochures-download">
                                         <p>TO KNOW MORE</p>
-                                        <button type="button" class="btn btn-download"><i class="fa fa-file-pdf-o"
+                                        <a href="<?= $asset_base ?>assets/pdf/flyer.pdf" download="flyer.pdf" class="btn btn-download"><i class="fa fa-file-pdf-o"
                                                 aria-hidden="true"></i>
-                                            Download Flyer</button>
-                                        <button type="button" class="btn btn-download"><i class="fa fa-file-word-o"
+                                            Download Flyer</a>
+                                        <a href="<?= $asset_base ?>assets/pdf/flyer.pdf" download="flyer.pdf" class="btn btn-download"><i class="fa fa-file-pdf-o"
                                                 aria-hidden="true"></i>
-                                            Portfolio</button>
+                                            Portfolio</a>
                                     </div>
                                 </div>
                             </div><!-- End row -->
