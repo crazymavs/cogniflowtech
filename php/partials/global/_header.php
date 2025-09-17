@@ -57,7 +57,7 @@
         <div class="mm-toggle">
           <i class="fa fa-bars"></i><span class="mm-label"></span>
         </div> <!-- End button mobile menu -->
-        <a href="<?= $asset_base ?>"><img src="<?= $asset_base ?>assets/images/cogniflow/logo.png" class="img-responsive" alt="Image" style="width:140px;"></a>
+        <a href="<?= $asset_base ?>"><img src="<?= $asset_base ?>assets/images/cogniflow/logo_green.png" class="img-responsive" alt="Image" style="width:140px;"></a>
       </div><!-- End Logo -->
       <nav class="navi-desktop-site">
         <ul class="navi-level-1">

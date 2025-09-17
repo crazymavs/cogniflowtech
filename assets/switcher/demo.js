@@ -11,7 +11,7 @@ jQuery(document).ready(function ($) {
 
   jQuery('.color2').click(function () {
     jQuery('#colors').attr('href', 'switcher/colors/blue.css');
-    $('.logo img').attr('src', 'images/cogniflow/logo.png');
+    $('.logo img').attr('src', 'images/cogniflow/logo_green.png');
     $('.header-v2 .logo img').attr('src', 'images/Header/logo-invest.png');
     $('.footer-col-1 img').attr('src', 'images/Header/logo-invest.png');
   });

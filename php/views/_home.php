@@ -4,133 +4,138 @@
         <div class="fullwidthbanner-container">
           <div id="revolution-slider-home-1">
 <ul>
-    <!-- SLIDE 1 -->
-    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="5000">
-        <!-- MAIN IMAGE -->
-        <img src="<?= $asset_base ?>assets/images/slider/1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
-        <!-- LAYER NR. 1 -->
-        <div class="tp-caption sfr stt h2-text" data-x="0" data-y="298" data-speed="400" data-start="1000" data-easing="easeInOut">
-        </div>
-        <!-- LAYER NR. 2 -->
-        <div class="tp-caption sfr stt h1-text" data-x="0" data-y="381" data-speed="400" data-start="1400" data-easing="easeInOut">
-            Power System Consultancy
-        </div>
-        <!-- LAYER NR. 3 -->
-        <div class="tp-caption sfr stb h3-text" data-x="0" data-y="455" data-speed="400" data-start="1700" data-easing="easeInOut" style="max-width: 565px">
-            Expert in designing, analyzing, and optimizing power systems for maximum reliability and efficiency.
-        </div>
-        <!-- LAYER NR. 4 -->
-        <div class="tp-caption sfr stb group-btn-slider" data-x="0" data-y="580" data-speed="400" data-start="1900" data-easing="easeInOut">
-            <a href="<?= $asset_base ?>services/powersystem" class="ot-btn large-btn btn-rounded btn-main-color btn-1">Our Services</a>
-            <a href="<?= $asset_base ?>contact" class="ot-btn large-btn btn-rounded btn-sub-color btn-2">Contact Us</a>
-        </div>
-    </li>
-
     <!-- SLIDE 2 -->
-    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="5000">
+    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="2000">
         <!-- MAIN IMAGE -->
         <img src="<?= $asset_base ?>assets/images/slider/2.jpg" alt="slidebg2" data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
         <!-- LAYER NR. 1 -->
-        <div class="tp-caption sfr stt h2-text" data-x="0" data-y="298" data-speed="400" data-start="1000" data-easing="easeInOut">
+        <div class="tp-caption sfr stt h2-text" data-x="0" data-y="298" data-speed="400"  data-easing="easeInOut">
         </div>
         <!-- LAYER NR. 2 -->
-        <div class="tp-caption sfr stt h1-text" data-x="0" data-y="381" data-speed="400" data-start="1400" data-easing="easeInOut">
-            Industrial Process Automation Systems
+        <div class="tp-caption sfr stt h1-text" data-x="0" data-y="381" data-speed="400"  data-easing="easeInOut">
+            Industrial Process Automation
         </div>
         <!-- LAYER NR. 3 -->
-        <div class="tp-caption sfr stb h3-text" data-x="0" data-y="455" data-speed="400" data-start="1700" data-easing="easeInOut" style="max-width: 565px">
+        <div class="tp-caption sfr stb h3-text" data-x="0" data-y="455" data-speed="400"  data-easing="easeInOut" style="max-width: 565px">
             We deliver comprehensive automation systems to streamline industrial processes and increase operational productivity.
         </div>
         <!-- LAYER NR. 4 -->
-        <div class="tp-caption sfr stb group-btn-slider" data-x="0" data-y="580" data-speed="400" data-start="1900" data-easing="easeInOut">
+        <div class="tp-caption sfr stb group-btn-slider" data-x="0" data-y="580" data-speed="400"  data-easing="easeInOut">
             <a href="<?= $asset_base ?>services/automation" class="ot-btn large-btn btn-rounded btn-main-color btn-1">Our Services</a>
             <a href="<?= $asset_base ?>contact" class="ot-btn large-btn btn-rounded btn-sub-color btn-2">Contact Us</a>
         </div>
     </li>
 
-    <!-- SLIDE 3 -->
-    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="5000">
+    <!-- SLIDE 1 -->
+    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="2000">
         <!-- MAIN IMAGE -->
-        <img src="<?= $asset_base ?>assets/images/slider/3.jpg" alt="slidebg3" data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
+        <img src="<?= $asset_base ?>assets/images/slider/1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
         <!-- LAYER NR. 1 -->
-        <div class="tp-caption sfr stt h2-text" data-x="0" data-y="298" data-speed="400" data-start="1000" data-easing="easeInOut">
+        <div class="tp-caption sfr stt h2-text" data-x="0" data-y="298" data-speed="400"  data-easing="easeInOut">
         </div>
         <!-- LAYER NR. 2 -->
-        <div class="tp-caption sfr stt h1-text" data-x="0" data-y="381" data-speed="400" data-start="1400" data-easing="easeInOut">
-            Industrial Iot Solutions
+        <div class="tp-caption sfr stt h1-text" data-x="0" data-y="381" data-speed="400"  data-easing="easeInOut">
+            Power System Consultancy
         </div>
         <!-- LAYER NR. 3 -->
-        <div class="tp-caption sfr stb h3-text" data-x="0" data-y="455" data-speed="400" data-start="1700" data-easing="easeInOut" style="max-width: 565px">
-            Empower your business with advanced IIoT technologies for real-time data insights and optimized operations.
+        <div class="tp-caption sfr stb h3-text" data-x="0" data-y="455" data-speed="400"  data-easing="easeInOut" style="max-width: 565px">
+            Expert in designing, analyzing, and optimizing power systems for maximum reliability and efficiency.
         </div>
         <!-- LAYER NR. 4 -->
-        <div class="tp-caption sfr stb group-btn-slider" data-x="0" data-y="580" data-speed="400" data-start="1900" data-easing="easeInOut">
-            <a href="<?= $asset_base ?>services/iiot" class="ot-btn large-btn btn-rounded btn-main-color btn-1">Our Services</a>
+        <div class="tp-caption sfr stb group-btn-slider" data-x="0" data-y="580" data-speed="400"  data-easing="easeInOut">
+            <a href="<?= $asset_base ?>services/powersystem" class="ot-btn large-btn btn-rounded btn-main-color btn-1">Our Services</a>
             <a href="<?= $asset_base ?>contact" class="ot-btn large-btn btn-rounded btn-sub-color btn-2">Contact Us</a>
         </div>
     </li>
 
-    <!-- SLIDE 4 -->
-    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="5000">
-        <!-- MAIN IMAGE -->
-        <img src="<?= $asset_base ?>assets/images/slider/4.jpg" alt="slidebg4" data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
-        <!-- LAYER NR. 1 -->
-        <div class="tp-caption sfr stt h2-text" data-x="0" data-y="298" data-speed="400" data-start="1000" data-easing="easeInOut">
-        </div>
-        <!-- LAYER NR. 2 -->
-        <div class="tp-caption sfr stt h1-text" data-x="0" data-y="381" data-speed="400" data-start="1400" data-easing="easeInOut">
-            Siemens Automation Solutions
-        </div>
-        <!-- LAYER NR. 3 -->
-        <div class="tp-caption sfr stb h3-text" data-x="0" data-y="455" data-speed="400" data-start="1700" data-easing="easeInOut" style="max-width: 565px">
-            Enhance operational and digital transformation initiatives with AVEVA's innovative software platform.
-        </div>
-        <!-- LAYER NR. 4 -->
-        <div class="tp-caption sfr stb group-btn-slider" data-x="0" data-y="580" data-speed="400" data-start="1900" data-easing="easeInOut">
-            <a href="<?= $asset_base ?>services/aveva" class="ot-btn large-btn btn-rounded btn-main-color btn-1">Our Services</a>
-            <a href="<?= $asset_base ?>contact" class="ot-btn large-btn btn-rounded btn-sub-color btn-2">Contact Us</a>
-        </div>
-    </li>
-
-    <!-- SLIDE 5 -->
-    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="5000">
+        <!-- SLIDE 5 -->
+    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="2000">
         <!-- MAIN IMAGE -->
         <img src="<?= $asset_base ?>assets/images/slider/5.jpg" alt="slidebg5" data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
         <!-- LAYER NR. 1 -->
-        <div class="tp-caption sfr stt h2-text" data-x="0" data-y="298" data-speed="400" data-start="1000" data-easing="easeInOut">
+        <div class="tp-caption sfr stt h2-text" data-x="0" data-y="298" data-speed="400"  data-easing="easeInOut">
         </div>
         <!-- LAYER NR. 2 -->
-        <div class="tp-caption sfr stt h1-text" data-x="0" data-y="381" data-speed="400" data-start="1400" data-easing="easeInOut">
-            Sensors & Industrials Instruments
+        <div class="tp-caption sfr stt h1-text" data-x="0" data-y="381" data-speed="400"  data-easing="easeInOut">
+            Sensors & Industrial Instruments
         </div>
         <!-- LAYER NR. 3 -->
-        <div class="tp-caption sfr stb h3-text" data-x="0" data-y="455" data-speed="400" data-start="1700" data-easing="easeInOut" style="max-width: 565px">
+        <div class="tp-caption sfr stb h3-text" data-x="0" data-y="455" data-speed="400"  data-easing="easeInOut" style="max-width: 565px">
             Ensure precise monitoring and control with our advanced range of sensors and industrial instruments.
         </div>
         <!-- LAYER NR. 4 -->
-        <div class="tp-caption sfr stb group-btn-slider" data-x="0" data-y="580" data-speed="400" data-start="1900" data-easing="easeInOut">
+        <div class="tp-caption sfr stb group-btn-slider" data-x="0" data-y="580" data-speed="400"  data-easing="easeInOut">
             <a href="<?= $asset_base ?>services/sensors" class="ot-btn large-btn btn-rounded btn-main-color btn-1">Our Services</a>
             <a href="<?= $asset_base ?>contact" class="ot-btn large-btn btn-rounded btn-sub-color btn-2">Contact Us</a>
         </div>
     </li>
 
+    <!-- SLIDE 4 -->
+    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="2000">
+        <!-- MAIN IMAGE -->
+        <img src="<?= $asset_base ?>assets/images/slider/4.jpg" alt="slidebg4" data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
+        <!-- LAYER NR. 1 -->
+        <div class="tp-caption sfr stt h2-text" data-x="0" data-y="298" data-speed="400"  data-easing="easeInOut">
+        </div>
+        <!-- LAYER NR. 2 -->
+        <div class="tp-caption sfr stt h1-text" data-x="0" data-y="381" data-speed="400"  data-easing="easeInOut">
+            Siemens Automation Solutions
+        </div>
+        <!-- LAYER NR. 3 -->
+        <div class="tp-caption sfr stb h3-text" data-x="0" data-y="455" data-speed="400"  data-easing="easeInOut" style="max-width: 565px">
+            Enhance operational and digital transformation initiatives with AVEVA's innovative software platform.
+        </div>
+        <!-- LAYER NR. 4 -->
+        <div class="tp-caption sfr stb group-btn-slider" data-x="0" data-y="580" data-speed="400"  data-easing="easeInOut">
+            <a href="<?= $asset_base ?>services/aveva" class="ot-btn large-btn btn-rounded btn-main-color btn-1">Our Services</a>
+            <a href="<?= $asset_base ?>contact" class="ot-btn large-btn btn-rounded btn-sub-color btn-2">Contact Us</a>
+        </div>
+    </li>
+  
+
+    <!-- SLIDE 3 -->
+    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="2000">
+        <!-- MAIN IMAGE -->
+        <img src="<?= $asset_base ?>assets/images/slider/3.jpg" alt="slidebg3" data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
+        <!-- LAYER NR. 1 -->
+        <div class="tp-caption sfr stt h2-text" data-x="0" data-y="298" data-speed="400"  data-easing="easeInOut">
+        </div>
+        <!-- LAYER NR. 2 -->
+        <div class="tp-caption sfr stt h1-text" data-x="0" data-y="381" data-speed="400"  data-easing="easeInOut">
+            Industrial IoT Solutions
+        </div>
+        <!-- LAYER NR. 3 -->
+        <div class="tp-caption sfr stb h3-text" data-x="0" data-y="455" data-speed="400"  data-easing="easeInOut" style="max-width: 565px">
+            Empower your business with advanced IIoT technologies for real-time data insights and optimized operations.
+        </div>
+        <!-- LAYER NR. 4 -->
+        <div class="tp-caption sfr stb group-btn-slider" data-x="0" data-y="580" data-speed="400"  data-easing="easeInOut">
+            <a href="<?= $asset_base ?>services/iiot" class="ot-btn large-btn btn-rounded btn-main-color btn-1">Our Services</a>
+            <a href="<?= $asset_base ?>contact" class="ot-btn large-btn btn-rounded btn-sub-color btn-2">Contact Us</a>
+        </div>
+    </li>
+
+
+
+
+
     <!-- SLIDE 6 -->
-    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="5000">
+    <li data-transition="fade" data-slotamount="7" data-masterspeed="1500" data-delay="2000">
         <!-- MAIN IMAGE -->
         <img src="<?= $asset_base ?>assets/images/slider/6.jpg" alt="slidebg6" data-bgfit="cover" data-bgposition="center" data-bgrepeat="no-repeat">
         <!-- LAYER NR. 1 -->
-        <div class="tp-caption sfr stt h2-text" data-x="0" data-y="298" data-speed="400" data-start="1000" data-easing="easeInOut">
+        <div class="tp-caption sfr stt h2-text" data-x="0" data-y="298" data-speed="400"  data-easing="easeInOut">
         </div>
         <!-- LAYER NR. 2 -->
-        <div class="tp-caption sfr stt h1-text" data-x="0" data-y="381" data-speed="400" data-start="1400" data-easing="easeInOut">
+        <div class="tp-caption sfr stt h1-text" data-x="0" data-y="381" data-speed="400"  data-easing="easeInOut">
             Software as a Service
         </div>
         <!-- LAYER NR. 3 -->
-        <div class="tp-caption sfr stb h3-text" data-x="0" data-y="455" data-speed="400" data-start="1700" data-easing="easeInOut" style="max-width: 565px">
+        <div class="tp-caption sfr stb h3-text" data-x="0" data-y="455" data-speed="400"  data-easing="easeInOut" style="max-width: 565px">
             Delivering flexible, scalable software solutions tailored to your industrial and business needs.
         </div>
         <!-- LAYER NR. 4 -->
-        <div class="tp-caption sfr stb group-btn-slider" data-x="0" data-y="580" data-speed="400" data-start="1900" data-easing="easeInOut">
+        <div class="tp-caption sfr stb group-btn-slider" data-x="0" data-y="580" data-speed="400"  data-easing="easeInOut">
             <a href="<?= $asset_base ?>services/saas" class="ot-btn large-btn btn-rounded btn-main-color btn-1">Our Services</a>
             <a href="<?= $asset_base ?>contact" class="ot-btn large-btn btn-rounded btn-sub-color btn-2">Contact Us</a>
         </div>
@@ -186,6 +191,20 @@
             <h2 class="title clearfix">Our Services</h2>
           </div><!-- End col -->
           <div class="col-md-12 services-warp">
+
+           <article class=" media-style media-left-icon-item no-margin">
+              <div class="media">
+                <a href="<?= $asset_base ?>services/automation">
+                  <div class="media-body">
+                    <h4 class="">Industrial Process Automation</h4>
+                    <div class="img_container">
+                      <img src="<?= $asset_base ?>assets/images/cogniflow/automation/1.jpg" alt="">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </article><!-- End article -->
+
             <article class=" media-style media-left-icon-item no-margin">
               <div class="media">
                 <a href="<?= $asset_base ?>services/powersystem">
@@ -201,11 +220,26 @@
 
             <article class=" media-style media-left-icon-item no-margin">
               <div class="media">
-                <a href="<?= $asset_base ?>services/automation">
+                <a href="<?= $asset_base ?>services/sensors">
                   <div class="media-body">
-                    <h4 class="">Industrial Process Automation Systems</h4>
+                    <h4 class="">Sensors & Industrial Instruments</h4>
                     <div class="img_container">
-                      <img src="<?= $asset_base ?>assets/images/cogniflow/automation/1.jpg" alt="">
+                      <img src="<?= $asset_base ?>assets/images/cogniflow/sensors/1.png" alt="">
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </article><!-- End article -->
+
+            
+
+            <article class=" media-style media-left-icon-item no-margin">
+              <div class="media">
+                <a href="<?= $asset_base ?>services/aveva">
+                  <div class="media-body">
+                    <h4 class="">Siemens Automation Solutions</h4>
+                    <div class="img_container">
+                      <img src="<?= $asset_base ?>assets/images/cogniflow/aveva/1.png" alt="">
                     </div>
                   </div>
                 </a>
@@ -225,31 +259,7 @@
               </div>
             </article><!-- End article -->
 
-            <article class=" media-style media-left-icon-item no-margin">
-              <div class="media">
-                <a href="<?= $asset_base ?>services/aveva">
-                  <div class="media-body">
-                    <h4 class="">Siemens Automation Solutions</h4>
-                    <div class="img_container">
-                      <img src="<?= $asset_base ?>assets/images/cogniflow/aveva/1.png" alt="">
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </article><!-- End article -->
-
-            <article class=" media-style media-left-icon-item no-margin">
-              <div class="media">
-                <a href="<?= $asset_base ?>services/sensors">
-                  <div class="media-body">
-                    <h4 class="">Sensors & Industrial Instruments</h4>
-                    <div class="img_container">
-                      <img src="<?= $asset_base ?>assets/images/cogniflow/sensors/1.png" alt="">
-                    </div>
-                  </div>
-                </a>
-              </div>
-            </article><!-- End article -->
+           
 
             <article class=" media-style media-left-icon-item no-margin">
               <div class="media">
